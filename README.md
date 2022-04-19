@@ -30,10 +30,9 @@
 ### files in : data\top100full.xlsx
 
 ### files out : data\top100final.xlsx , data\pos.xlsx, data\clubs.xlsx
-
-
-
-
+#
+#
+#
 ## Fourth step (analysing)
 
 ### codes files : analysing.xslx
