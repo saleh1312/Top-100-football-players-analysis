@@ -32,20 +32,19 @@ for clubs in df["transfer to"]:
             clubs_unique.append(club)
 #print(clubs_unique)
 ########################   transfer date
-dates_unique=[]
+dates_clean=[]
 for dates in df["transfer date"]:
-    date_unique=[]
+    date_clean=[]
     for date in eval(dates):
         date_="20"+date.split("/")[0]
-        if date_ not in date_unique:
-            date_unique.append(date_)
-    dates_unique.append(date_unique)
+        date_clean.append(date_)
+    dates_clean.append(date_clean)
     
     
     
 #print(dates_unique)
 ##################################
-df["transfer date"]=dates_unique
+df["transfer date"]=dates_clean
 posdf = pd.DataFrame({'pos':pos_unique})
 clubsdf = pd.DataFrame({'clubs':clubs_unique})
 
