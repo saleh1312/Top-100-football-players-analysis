@@ -45,7 +45,7 @@
 
 ### codes files : add_field.py
 
-### files in : data\top100final.xlsx , data\pos.xlsx, data\clubs.xlsx ,data\countries.xlsx,images in assets
+### files in : Dashboard.py.xlsx,images in assets
 #
 #
 ### DashBoard
