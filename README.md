@@ -35,9 +35,18 @@
 #
 ## Fourth step (analysing)
 
-### codes files : analysing.xslx
+### codes files : Dashboard.xslx
 
 ### files in : data\top100final.xlsx , data\pos.xlsx, data\clubs.xlsx ,data\countries.xlsx
+#
+#
+#
+## fifth step (adding frequency of the positions)
 
+### codes files : add_field.py
+
+### files in : data\top100final.xlsx , data\pos.xlsx, data\clubs.xlsx ,data\countries.xlsx,images in assets
+#
+#
 ### DashBoard
 ![alt text](https://github.com/saleh1312/images-githup/blob/main/imgs/top100.jpg?raw=true)
